@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  height: 100%;
+  background-color: rgb(213, 193, 175);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.content {
+  background-color: rgb(247, 240, 233);
+  border-radius: 2%;
+  margin: 0;
+  flex-basis: 25%;
+}
+
+.header {
+  background-color: rgb(111, 111, 246);
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  border-radius: 2%;
+  max-height: 100%;
+  max-width: 100%;
+  color: white;
+}
+
+.form {
+  padding: 10%;
+}
+
+.field {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+.font-sizes {
+  font-size: 1rem;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+button {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 15ch;
+  border: 1px solid;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(239, 106, 106);
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.res-header {
+  align-content: center;
+}
+
+.tip-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -20px;
+}
